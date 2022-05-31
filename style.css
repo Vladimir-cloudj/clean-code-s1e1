@@ -1,5 +1,5 @@
 /* Basic Style */
-.page {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -19,22 +19,22 @@
 
 @media (max-width: 768px) {
 
-    .header img { 
+    .header { 
         text-align: center;
     }
     
 }
-.centered-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.add-task__input {
     width: 56%;
     display: inline-block;
     flex-grow: 1;
 }
-.task-row-wrapper {
+.add-task__container {
     display: flex;
 }
 ul {
@@ -123,17 +123,17 @@ li > label {
 li > input[type="text"] {
     width: 226px;
 }
-.delete img {
+.list__btn_delete img {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
-.delete img:hover {
+.list__btn_delete img:hover {
     transform: rotateZ(0);
 }
 
 /* Completed */
-#completed-tasks label {
+#done-tasks label {
     text-decoration: line-through;
     color: #888;
 }
