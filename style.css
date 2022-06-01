@@ -110,7 +110,11 @@
     justify-content: space-between;
     align-items: center;
 }
-li > * {
+.list__input,
+.list__task,
+.list__btn,
+.list__btn_edit,
+.list__btn-delete {
     vertical-align: middle;
 }
 
