@@ -4,13 +4,13 @@
     color: #333;
     font-family: Lato, sans-serif;
 }
-.header {
+.header__img {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
-.header__img {
+.header__img-capture {
     width: 100%;
 }
 .header-link {

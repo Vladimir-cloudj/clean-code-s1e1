@@ -11,7 +11,7 @@
 var taskInput=document.querySelector(".add-task__input");//Add a new task.
 var addButton=document.querySelector(".add-task__btn")[0];//first button
 var incompleteTaskHolder=document.querySelector(".do-tasks__list");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("done-tasks");//completed-tasks
+var completedTasksHolder=document.querySelector("done-tasks");//completed-tasks
 
 
 //New task list item
@@ -85,7 +85,7 @@ var addTask=function(){
 
 var editTask=function(){
     console.log("Edit Task...");
-    console.log("Change 'edit' to 'save'");
+    console.log("Change `edit` to `save`");
 
 
     var listItem=this.parentNode;
