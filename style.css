@@ -141,8 +141,8 @@
 
 /* Completed */
 .done-tasks__list .list__task {
-    text-decoration: line-through;
     color: #888;
+    text-decoration: line-through;
 }
 
 /* Edit Task */
